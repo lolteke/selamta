@@ -1,15 +1,16 @@
 :root {
   --navy: #062b52;
   --navy2: #031d38;
-  --gold: #e6ad22;
-  --gold2: #f6c445;
-  --gold3: #9c7000;
+  --gold: #d1e142; /*e6ad22*/
+  --gold2: #78c306;/*f6c445*/
+  --gold3: #013580; /*9c7000*/
   --ink: #17283b;
-  --muted: #64748b;
+  --muted: #1a1c1e;
   --light: #f5f8fb;
   --white: #fff;
   --line: #e4ebf2;
-  --shadow: 0 12px 35px rgba(4, 32, 59, .10)
+  --shadow: 0 12px 35px rgba(4, 32, 59, .10);
+  /*013580, 78c306*/
 }
 
 * {
@@ -104,9 +105,8 @@ img {
   text-shadow: 2px 1px 0 #111
 }
 
-.brand-mark_img {
-  width: 70px; height: 70px;
-}
+/* .brand-mark_img {width: 70px; height: 70px;} */
+.brand-mark_img {width: auto; height: 55px;}
 
 .brand-text strong {
   display: block;
@@ -149,6 +149,7 @@ img {
   padding: 12px 22px;
   border-radius: 30px;
   background: var(--gold);
+  /* color: #111; */
   color: #111;
   font-weight: 800;
   font-size: 13px;
@@ -325,6 +326,7 @@ img {
   line-height: 1.2;
   margin-bottom: 16px;
   text-align: right;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7), 0 1px 3px rgba(0, 0, 0, 0.9);
 }
 
 .hero-copy h1 span {
@@ -385,9 +387,11 @@ img {
 .eyebrow_v2 {
   color: var(--gold3);
   font-size: 24px;
-  font-weight: 800;
-  letter-spacing: 2px;
-  text-transform: uppercase
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 0.5px var(--gold3);
+  /* text-shadow: 0.5px 0px 0px var(--gold3), -0.5px 0px 0px var(--gold3); */
 }
 
 .text_18{font-size: 16px;}
@@ -454,9 +458,8 @@ section {padding: 30px 0}
   align-items: center
 }
 
-.about_2 {
-  grid-template-columns: 1fr 1fr;
-}
+/* .about_2 {grid-template-columns: 1fr 1fr;} */
+.about_2 {grid-template-columns: 1fr;}
 
 .about-photo {
   height: 365px;
@@ -645,8 +648,9 @@ section {padding: 30px 0}
 
 /* Change the Why Choose background image here if desired: images/selamta-ambulatory.jpg */
 .why {
-  background: linear-gradient(90deg, rgba(2, 29, 56, .97), rgba(2, 29, 56, .90)), url('images/selamta-student.jpg') center/cover;
-  color: #fff
+  /* background: linear-gradient(90deg, rgba(2, 29, 56, .97), rgba(2, 29, 56, .90)), url('images/selamta-student.jpg') center/cover; */
+  background: linear-gradient(90deg, rgba(2, 29, 56, .97), rgba(2, 29, 56, .90)), center/cover;
+  color: #fff;
 }
 
 .why-grid {
@@ -700,6 +704,10 @@ section {padding: 30px 0}
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 25px
+}
+
+.col_1 {
+  grid-template-columns: 1fr !important;
 }
 
 .panel {
@@ -787,6 +795,61 @@ section {padding: 30px 0}
   font-size: 9px;
   color: var(--muted)
 }
+
+
+/* 3-Column List Grid System */
+.fleet-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 Equal Columns */
+  gap: 20px 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fleet-grid li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.fleet-grid li i {
+  color: var(--primary, #2563eb);
+  font-size: 16px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.fleet-grid li strong {
+  display: block;
+  font-size: 14px;
+  color: var(--navy, #0f172a);
+  margin-bottom: 3px;
+  line-height: 1.3;
+}
+
+.fleet-grid li small {
+  display: block;
+  font-size: 12px;
+  color: var(--muted, #64748b);
+  line-height: 1.5;
+}
+
+/* Tablet Responsive: 2 Columns */
+@media (max-width: 992px) {
+  .fleet-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile Responsive: 1 Column */
+@media (max-width: 600px) {
+  .fleet-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
 
 .contact {
   background: var(--light)
@@ -1154,7 +1217,8 @@ section {padding: 30px 0}
   gap: 12px;
   padding: 5px 20px;
   background: linear-gradient(135deg, #25d366, #128c7e); /* Modern vibrant gradient */
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: rgb(255, 255, 151);
   text-decoration: none;
   border-radius: 12px;
   box-shadow: 0 4px 14px rgba(37, 211, 102, 0.3);
@@ -1208,3 +1272,157 @@ section {padding: 30px 0}
   transform: translateY(0);
   box-shadow: 0 2px 8px rgba(37, 211, 102, 0.3);
 }
+
+
+/* Two Column Section Layout */
+.two-col-row {
+  display: grid;
+  grid-template-columns: 0.5fr 1.2fr; /* Left column takes 1 part, right column takes 1.2 parts */
+  gap: 32px;
+  align-items: start;
+  padding: 40px 0;
+}
+
+/* Compact Grid for Right Column Safety Items */
+.fleet-grid-compact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 sub-columns inside right panel */
+  gap: 16px 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fleet-grid-compact li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.fleet-grid-compact li i {
+  color: var(--primary, #2563eb);
+  font-size: 15px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.fleet-grid-compact li strong {
+  display: block;
+  font-size: 13.5px;
+  color: var(--navy, #0f172a);
+  margin-bottom: 2px;
+  line-height: 1.3;
+}
+
+.fleet-grid-compact li small {
+  display: block;
+  font-size: 12px;
+  color: var(--muted, #64748b);
+  line-height: 1.4;
+}
+
+/* Tablet & Mobile Responsive */
+@media (max-width: 992px) {
+  .two-col-row {
+    grid-template-columns: 1fr; /* Stack into 1 column on smaller screens */
+    gap: 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .fleet-grid-compact {
+    grid-template-columns: 1fr; /* Single column safety items on mobile */
+  }
+}
+
+
+/* Chat Me Section */
+.chat-section {
+  padding: 60px 0;
+  background-color: #f8fafc;
+}
+
+.chat-card {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 36px 32px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.chat-header h2 {
+  font-size: 24px;
+  color: #0f172a;
+  margin: 4px 0 8px 0;
+}
+
+.chat-header p {
+  font-size: 13.5px;
+  color: #64748b;
+  margin-bottom: 24px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background-color: #ffffff;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.btn-send {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-send:hover {
+  background-color: #1d4ed8;
+}
+
+.form-response {
+  margin-top: 16px;
+  font-size: 13.5px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.form-response.success { color: #16a34a; }
+.form-response.error { color: #dc2626; }
