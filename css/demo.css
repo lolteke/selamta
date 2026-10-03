@@ -5,7 +5,7 @@
   --gold2: #78c306;/*f6c445*/
   --gold3: #013580; /*9c7000*/
   --ink: #17283b;
-  --muted: #1a1c1e;
+  --muted: #030303;
   --light: #f5f8fb;
   --white: #fff;
   --line: #e4ebf2;
@@ -125,13 +125,14 @@ img {
   display: flex;
   align-items: center;
   gap: 28px;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700
 }
 
 .links a:hover,
 .links a.active {
-  color: var(--gold)
+  /* color: var(--gold); */
+  color: #000000;
 }
 
 .menu {
@@ -520,7 +521,13 @@ section {padding: 30px 0}
 }
 
 .mission {
-  background: linear-gradient(180deg, #f8fafc, #eef5fa)
+  background: linear-gradient(180deg, #f8fafc, #eef5fa);
+  /* background: linear-gradient(180deg, #031d38, #1064a0); */
+}
+.mission.m_light {
+  /* background: linear-gradient(180deg, #031d38, #031d38); */
+  background: linear-gradient(90deg, rgba(2, 29, 56, .97), rgba(2, 29, 56, .90)), center/cover;
+  color: #fff;
 }
 
 .pill-grid {
@@ -543,6 +550,10 @@ section {padding: 30px 0}
   color: var(--navy);
   margin: 5px 0 12px
 }
+.m_light .pill .eyebrow_v2, 
+.m_light .pill h3 {color: rgb(255, 255, 150);}
+.m_light .pill p,
+.m_light .pill li {color: #ffffff;}
 
 .pill p,
 .pill li {
@@ -897,7 +908,8 @@ section {padding: 30px 0}
   display: grid;
   place-items: center;
   background: var(--navy);
-  color: #fff;
+  /* background: yellow; */
+  color: #000;
   font-size: 12px;
   font-weight: 700
 }
@@ -1280,7 +1292,33 @@ section {padding: 30px 0}
   grid-template-columns: 0.5fr 1.2fr; /* Left column takes 1 part, right column takes 1.2 parts */
   gap: 32px;
   align-items: start;
-  padding: 40px 0;
+  padding: 10px 0;
+}
+
+.cnt_light,
+.cnt_light .contact-card,
+.ass_light {
+  /* background: linear-gradient(180deg, #031d38, #031d38); */
+  background: linear-gradient(90deg, rgba(2, 29, 56, .97), rgba(2, 29, 56, .90)), center/cover;
+  color: #fff;
+}
+.ass_light .panel,
+.ass_light .values{
+  /* background: linear-gradient(180deg, #031d38, #031d38); */
+  background: linear-gradient(90deg, rgba(2, 29, 56, .97), rgba(2, 29, 56, .90)), center/cover !important;
+  color: #fff;
+}
+.cnt_light .eyebrow_v2,
+.cnt_light h2,
+.ass_light .eyebrow_v2{color: yellow;}
+.ass_light b,
+.ass_light .panel i,
+.ass_light strong{color: yellow !important;}
+.ass_light span,
+.ass_light small{color: #fff !important;}
+.cnt_light .social-big a {
+  background: yellow;
+  color: #111;
 }
 
 /* Compact Grid for Right Column Safety Items */

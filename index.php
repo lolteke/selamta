@@ -5,15 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Selamta Transport LLC - Safe rides, reliable service, compassionate care. Non-emergency medical and student transportation.">
-  <meta name="theme-color" content="#FF5722" />
+  <meta name="theme-color" content="#031d38" />
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32_v3.png">
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon_v3.png">
   <title>Selamta Transport LLC | Safe Rides. Reliable Service. Compassionate Care.</title>
   <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"> -->
-  <link rel="stylesheet" href="fontawesome/css/all.min.css?v=2.9">
-  <link rel="stylesheet" href="css/demo.css?v=2.9">
+  <link rel="stylesheet" href="fontawesome/css/all.min.css?v=3.2">
+  <link rel="stylesheet" href="css/demo.css?v=3.2">
 </head>
 
 <body>
@@ -45,7 +45,7 @@
     <div class="hero-overlay"></div>
     <div class="container">
       <div class="hero-copy">
-        <h1>Your Destination.<br><span>Our Commitment.</span></h1>
+        <h1>Your Destination<br><span>Our Commitment</span></h1>
         <p>Safe, reliable, and compassionate transportation for your medical and healthcare needs.</p>
         <div class="actions">
           <a class="btn call-btn" href="tel:+19135680962">
@@ -67,28 +67,28 @@
       <div class="about-copy">
         <div class="eyebrow_v2">About Us</div>
         <h3>Welcome to Selamta Transport LLC</h3>
-        <p>At Selamta Transport LLC, we are dedicated to providing safe, dependable, and compassionate Non-Emergency Medical Transportation (NEMT) services for individuals who need reliable transportation to healthcare appointments and essential medical services.</p>
-        <p>We understand that getting to a medical appointment can sometimes be challenging. Our goal is to make transportation easier by providing professional service that puts the needs, comfort, and dignity of our passengers first.</p>
+        <p>At Selamta Transport LLC, we are dedicated to providing safe, dependable, and compassionate services for individuals who need reliable transportation to healthcare appointments, schools and other essential services.</p>
+        <p>We understand that getting  transportation services can sometimes be challenging. Our goal is to make transportation easier by providing professional service that puts the needs, comfort, and dignity of our passengers first.</p>
         <p>Our team is committed to providing a respectful and comfortable transportation experience from the moment we pick you up until you safely reach your destination.</p>
       </div>
     </div>
   </section>
 
-  <section class="mission" id="mission">
+  <section class="mission m_light" id="mission">
     <div class="container">
       <div class="pill-grid">
         <div class="pill">
-          <div class="eyebrow_v2 text_18">Our Mission</div>
+          <div class="eyebrow_v2 text_18">Mission</div>
           <h3>Safe. Reliable. Compassionate.</h3>
-          <p>Our mission is to provide safe, reliable, compassionate, and professional non-emergency medical transportation services while treating every passenger with dignity, respect, and care.</p>
+          <p>Our mission is to provide safe, reliable, compassionate, and professional ransportation services while treating every passenger with dignity, respect, and care.</p>
         </div>
         <div class="pill">
-          <div class="eyebrow_v2 text_18">Our Vision</div>
+          <div class="eyebrow_v2 text_18">Vision</div>
           <h3>A Trusted Transportation Experience</h3>
-          <p>Our vision is to become a trusted leader in non-emergency medical transportation by creating an experience where every passenger feels safe, valued, respected, and cared for.</p>
+          <p>Our vision is to become a trusted leader in transportation by creating an experience where every passenger feels safe, valued, respected, and cared for.</p>
         </div>
         <div class="pill">
-          <div class="eyebrow_v2 text_18">Our Goals</div>
+          <div class="eyebrow_v2 text_18">Goals</div>
           <h3>What We Work Toward</h3>
           <ul>
             <li>Safety First</li>
@@ -101,7 +101,7 @@
           </ul>
         </div>
         <div class="pill">
-          <div class="eyebrow_v2 text_18">Our Commitment</div>
+          <div class="eyebrow_v2 text_18">Commitment</div>
           <h3>Every Ride Matters</h3>
           <p>We believe transportation is more than getting from one place to another. It is about helping people reach the care they need with safety, dignity, comfort, compassion, and peace of mind.</p>
           <p><strong>Safe rides. Reliable service. Compassionate care.</strong></p>
@@ -119,28 +119,28 @@
       <div class="service-grid">
         <article class="card"><img class="service-img" src='images/s_wheelchair.jpg' alt="Wheelchair transportation">
           <div class="card-body">
-            <div class="badge">♿</div>
+            <div class="badge"><i class="fa-solid fa-wheelchair"></i></div>
             <h3>Wheelchair Transportation</h3>
             <p>Accessible transportation for passengers who require wheelchair assistance, subject to vehicle availability and scheduling.</p>
           </div>
         </article>
-        <article class="card"><img class="service-img" src='images/selamta-ambulatory.jpg' alt="Ambulatory transportation">
+        <article class="card"><img class="service-img" src='images/s_ambulatory.jpg' alt="Ambulatory transportation">
           <div class="card-body">
-            <div class="badge">♿</div>
+            <div class="badge"><i class="fa-solid fa-person-walking"></i></div>
             <h3>Ambulatory Transportation</h3>
             <p>Safe and comfortable transportation for passengers who can walk independently or with a cane, walker, or other mobility aid.</p>
           </div>
         </article>
         <article class="card"><img class="service-img" src='images/s_stretcher.jpg' alt="Stretcher transportation">
           <div class="card-body">
-            <div class="badge">▣</div>
+            <div class="badge"><i class="fa-solid fa-bed-pulse"></i></div>
             <h3>Stretcher Transportation</h3>
             <p>Non-emergency stretcher transportation for passengers who are unable to travel safely in a standard seated position, subject to availability and eligibility.</p>
           </div>
         </article>
-        <article class="card"><img class="service-img" src='images/selamta-student2.jpg' alt="Student transportation">
+        <article class="card"><img class="service-img" src='images/s_school2.png' alt="Student transportation">
           <div class="card-body">
-            <div class="badge">▣</div>
+            <div class="badge"><i class="fa-solid fa-bus-simple"></i></div>
             <h3>Student Transportation</h3>
             <p>Safe, reliable, and professional transportation for students traveling to school, educational programs, appointments, and other approved destinations.</p>
           </div>
@@ -445,7 +445,7 @@
     </div>
   </section>
 
-  <section id="about-safety-section" class="two-col-section">
+  <section id="about-safety-section" class="two-col-section ass_light">
     <div class="container two-col-row">
 
       <!-- Left Column: We are Committed to (Values) -->
@@ -479,7 +479,7 @@
       <div class="col-right">
         <div class="panel">
           <div class="eyebrow_v2">Selamta Transport LLC Prioritizes Safety</div>
-          <p style="font-size:13px; color:var(--muted); margin-bottom: 24px;">"Every Trip. Every Passenger. Safety First."</p>
+          <p>Every Trip. Every Passenger. Safety First.</p>
 
           <ul class="fleet-grid-compact">
             <li>
@@ -630,7 +630,7 @@
     </div>
   </section>
 
-  <section class="contact" id="contact">
+  <section class="contact cnt_light" id="contact">
     <div class="container contact-grid">
       <div class="contact-card">
         <div class="eyebrow_v2">Contact Us</div>
@@ -658,10 +658,11 @@
       <a href="#" aria-label="LinkedIn">in</a>
       <a href="#" aria-label="Instagram">◎</a>
       <a href="#" aria-label="TikTok">♪</a> -->
-          <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://biz.yelp.com/setup/xWTYYRGaUtVp78kbTs6ddg/OPERATION_HOURS?entry_point=POST_CLAIM_WWW" aria-label="Yelp"><i class="fa-brands fa-yelp"></i></a>
+          <a href="https://x.com/Selamtaride" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61595044680935" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.linkedin.com/company/selamta-ride/?viewAsMember=true" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://www.instagram.com/selamtaride?stkn=MWliZmQ1NXJhdDhnOA==" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
           <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
         </div>
       </div>
@@ -826,17 +827,36 @@
         .then(async (response) => {
           let json = await response.json();
           if (response.status === 200) {
-            responseDiv.className = 'form-response success';
-            responseDiv.textContent = 'Message sent successfully! Check your Gmail inbox soon.';
+            //responseDiv.className = 'form-response success';
+            //responseDiv.textContent = 'Message sent successfully! Check your Gmail inbox soon.';
+            Swal.fire({
+              title: 'Message Submitted!',
+              text: 'Thank you! Message sent successfully! Check your Gmail inbox soon.',
+              icon: 'success',
+              confirmButtonColor: '#2563eb',
+              confirmButtonText: 'Great!'
+            });
             form.reset();
           } else {
-            responseDiv.className = 'form-response error';
-            responseDiv.textContent = json.message || 'Something went wrong. Please try again.';
+            //responseDiv.className = 'form-response error';
+            //responseDiv.textContent = json.message || 'Something went wrong. Please try again.';
+            Swal.fire({
+              title: 'Submission Failed',
+              text: response.message || 'Something went wrong. Please try again.',
+              icon: 'error',
+              confirmButtonColor: '#dc2626'
+            });
           }
         })
         .catch(() => {
           responseDiv.className = 'form-response error';
           responseDiv.textContent = 'Failed to submit form. Check your connection.';
+          Swal.fire({
+            title: 'Network Error',
+            text: 'Could not submit your request. Please call us directly at +1 913 568 0962.',
+            icon: 'warning',
+            confirmButtonColor: '#2563eb'
+          });
         })
         .finally(() => {
           submitBtn.disabled = false;
