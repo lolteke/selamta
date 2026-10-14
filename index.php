@@ -12,8 +12,8 @@
   <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"> -->
-  <link rel="stylesheet" href="fontawesome/css/all.min.css?v=3.2">
-  <link rel="stylesheet" href="css/demo.css?v=3.2">
+  <link rel="stylesheet" href="fontawesome/css/all.min.css?v=3.7">
+  <link rel="stylesheet" href="css/demo.css?v=3.7">
 </head>
 
 <body>
@@ -650,14 +650,7 @@
       </div>
       <div class="contact-card">
         <div class="eyebrow_v2">Follow Us</div>
-        <!-- <h2>Follow Us on</h2> -->
-        <!-- <p style="color:var(--muted);font-size:13px">Connect with Selamta Transport LLC on social platforms.</p> -->
         <div class="social-big">
-          <!-- <a href="#" aria-label="X">X</a>
-      <a href="#" aria-label="Facebook">f</a>
-      <a href="#" aria-label="LinkedIn">in</a>
-      <a href="#" aria-label="Instagram">◎</a>
-      <a href="#" aria-label="TikTok">♪</a> -->
           <a href="https://biz.yelp.com/setup/xWTYYRGaUtVp78kbTs6ddg/OPERATION_HOURS?entry_point=POST_CLAIM_WWW" aria-label="Yelp"><i class="fa-brands fa-yelp"></i></a>
           <a href="https://x.com/Selamtaride" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
           <a href="https://www.facebook.com/profile.php?id=61595044680935" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
